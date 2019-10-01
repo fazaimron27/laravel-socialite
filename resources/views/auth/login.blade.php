@@ -77,6 +77,10 @@
                                     <i class="fa fa-github"></i>
                                     Login with Github
                                 </a>
+                                <a href="{{ url('/auth/google') }}" class="btn btn-outline-primary">
+                                    <i class="fa fa-google"></i>
+                                    Login with Google
+                                </a>
                             </div>
                         </div>
                     </form>
