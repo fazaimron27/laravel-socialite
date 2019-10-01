@@ -53,7 +53,7 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                                <button type="submit" class="btn btn-outline-primary">
                                     {{ __('Login') }}
                                 </button>
 
@@ -69,9 +69,13 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-12">
-                                <a href="{{ url('/auth/facebook') }}" class="btn btn-facebook">
+                                <a href="{{ url('/auth/facebook') }}" class="btn btn-outline-primary">
                                     <i class="fa fa-facebook"></i>
                                     Login with Facebook
+                                </a>
+                                <a href="{{ url('/auth/github') }}" class="btn btn-outline-primary">
+                                    <i class="fa fa-github"></i>
+                                    Login with Github
                                 </a>
                             </div>
                         </div>
